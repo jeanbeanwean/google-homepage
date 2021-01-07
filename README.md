@@ -1,0 +1,1 @@
+This is Jean's first project, where I will attempt to deconstruct an existing web page and rebuild it. 
