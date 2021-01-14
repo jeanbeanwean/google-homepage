@@ -1,3 +1,26 @@
+<style>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    ul {
+        list-style-type: none; 
+        margin: 0;
+        padding: 0;
+        
+    }
+    li {
+        float: right;
+    }
+    a {
+        display: block; 
+        padding: 8px;
+    }
+
+</style>
+
 <html>
     <head>
         <title>
@@ -6,21 +29,24 @@
     </head>
     <header>
         <ul>
-            <li>Gmail</li>
-            <li>image</li>
+            <li><a href="http://gmail.com">Gmail</a></li>
+            <li><a href="https://www.google.com.sg/imghp?hl=en&tab=wi&ogbl">Image</a></li>
             <li><a href="http://google.com"><button type="submit">Sign In</button></a>
             </li>
         </ul>
     </header>
     <body>
         <a 
+        class = 'center'
         href="https://google.com"
         target="_blank">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
         </a>
     </body>
     <h1>
-        <input type="text">
+        <input
+        class = 'center'
+        type="text">
         <button type="submit">Google Search</button>
         <a href="https://google.com/doodles/"><button type="submit">I'm feeling lucky</button></a>
     </h1>
@@ -30,12 +56,13 @@
     <footer>
         <ul>
             <li>Singapore</li>
-            <li>Advertising</li>
-            <li>About Google</li>
-            <li>How Google Search Works</li>
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>Set up</li>
+            <li><a href="https://ads.google.com/intl/en_sg/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+            <li><a href="https://www.google.com/intl/en_sg/business/">Business</a></li>
+            <li><a href="https://about.google/?utm_source=google-SG&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a></li>
+            <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a></li>
+            <li><a href="https://policies.google.com/privacy?hl=en-SG&fg=1">Privacy</a></li>
+            <li><a href="https://policies.google.com/terms?hl=en-SG&fg=1">Terms</a></li>
+            <li>Settings</li>
         </ul>
     </footer>
 </html>
